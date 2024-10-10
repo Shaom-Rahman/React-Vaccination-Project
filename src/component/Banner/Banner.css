@@ -1,0 +1,48 @@
+.solarSyatem{
+    @apply bg-blue-950  flex justify-center p-[30px]
+}
+.neptune{
+    width: 550px;
+    height: 550px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    position: relative;
+    animation: neptune1 4s linear infinite ;
+}
+.neptune1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: blue;
+    position: absolute;
+    top: 0;
+    left: 70%;
+    transform: translateX(-70%);
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.Uranus{
+    width: 450px;
+    height: 450px;
+    border: 2px solid grey;
+    z-index: 4;
+    border-radius: 50%;
+    position: relative;
+    animation: Uranus1 4s linear infinite ;
+}
+.Uranus1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: blue;
+    position: absolute;
+    top: 0;
+    left: 70%;
+    transform: translateX(-70%);
+}

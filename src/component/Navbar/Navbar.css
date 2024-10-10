@@ -1,0 +1,16 @@
+.menu{
+    @apply bg-[#0B153C] pt-[41px]
+}
+.menuRow{
+    @apply flex justify-between items-center 
+}
+
+.menuText ul{
+    @apply flex gap-[25px]
+}
+.menuText ul li a{
+    @apply font-Montserrat font-normal text-[24px] text-[rgba(255,255,255,0.50)] hover:text-white 
+}
+.menuButton button{
+    @apply  rounded-[20px] bg-[rgba(196,196,196,0.10)] py-[20px] px-[26px] font-Montserrat font-bold text-[24px] text-[#17C2EC] 
+}
